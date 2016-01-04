@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.21)  4 JAN 2016 10:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.21)  4 JAN 2016 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -339,102 +339,129 @@ mosfet.jpg>]
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
 
 [1
 
-] [2] [3] <a11.PNG, id=29, 1436.36626pt x 681.29532pt>
+] [2] <2.jpg, id=24, 451.6875pt x 291.0875pt>
+File: 2.jpg Graphic file (type jpg)
+ <use 2.jpg>
+Package pdftex.def Info: 2.jpg used on input line 153.
+(pdftex.def)             Requested size: 241.84843pt x 155.8613pt.
+ [3 <./2.jpg>]
+<a11.PNG, id=30, 1436.36626pt x 681.29532pt>
 File: a11.PNG Graphic file (type png)
  <use a11.PNG>
-Package pdftex.def Info: a11.PNG used on input line 200.
+Package pdftex.def Info: a11.PNG used on input line 194.
 (pdftex.def)             Requested size: 483.69687pt x 229.42305pt.
 File: a11.PNG Graphic file (type png)
-
-<use a11.PNG>
-Package pdftex.def Info: a11.PNG used on input line 200.
+ <use a11.PNG>
+Package pdftex.def Info: a11.PNG used on input line 194.
 (pdftex.def)             Requested size: 483.69687pt x 229.42305pt.
- <a12.PNG, id=31, 1434.86063pt x 687.31781pt>
+
+<a12.PNG, id=32, 1434.86063pt x 687.31781pt>
 File: a12.PNG Graphic file (type png)
  <use a12.PNG>
-Package pdftex.def Info: a12.PNG used on input line 205.
+Package pdftex.def Info: a12.PNG used on input line 199.
 (pdftex.def)             Requested size: 483.69687pt x 231.6923pt.
 File: a12.PNG Graphic file (type png)
-
-<use a12.PNG>
-Package pdftex.def Info: a12.PNG used on input line 205.
+ <use a12.PNG>
+Package pdftex.def Info: a12.PNG used on input line 199.
 (pdftex.def)             Requested size: 483.69687pt x 231.6923pt.
- [4 <./a11.PNG> <./a12.PNG>]
-<b6.PNG, id=37, 1434.86063pt x 684.30656pt>
+
+[4 <./a11.PNG>] <4.jpg, id=37, 817.0525pt x 468.75125pt>
+File: 4.jpg Graphic file (type jpg)
+ <use 4.jpg>
+Package pdftex.def Info: 4.jpg used on input line 213.
+(pdftex.def)             Requested size: 241.84843pt x 138.74533pt.
+ [5 <./a12.PNG> <./4.jpg>] <b6.PNG, id=43, 1434.86063pt x 684.30656pt>
 File: b6.PNG Graphic file (type png)
  <use b6.PNG>
-Package pdftex.def Info: b6.PNG used on input line 245.
+Package pdftex.def Info: b6.PNG used on input line 244.
 (pdftex.def)             Requested size: 483.69687pt x 230.67723pt.
 File: b6.PNG Graphic file (type png)
- <use b6.PNG>
-Package pdftex.def Info: b6.PNG used on input line 245.
+
+<use b6.PNG>
+Package pdftex.def Info: b6.PNG used on input line 244.
 (pdftex.def)             Requested size: 483.69687pt x 230.67723pt.
- [5]
-<b7.PNG, id=43, 1434.86063pt x 684.30656pt>
+ <b7.PNG, id=44, 1434.86063pt x 684.30656pt>
 File: b7.PNG Graphic file (type png)
  <use b7.PNG>
-Package pdftex.def Info: b7.PNG used on input line 250.
+Package pdftex.def Info: b7.PNG used on input line 249.
 (pdftex.def)             Requested size: 483.69687pt x 230.67723pt.
 File: b7.PNG Graphic file (type png)
- <use b7.PNG>
-Package pdftex.def Info: b7.PNG used on input line 250.
+
+<use b7.PNG>
+Package pdftex.def Info: b7.PNG used on input line 249.
 (pdftex.def)             Requested size: 483.69687pt x 230.67723pt.
- [6 <./b6.PNG> <./b7.PNG>] <c13.PNG, id=49, 1440.13031pt x 684.30656pt>
+ [6 <./b6.PNG>] <5.jpg, id=50, 436.63126pt x 455.7025pt>
+File: 5.jpg Graphic file (type jpg)
+
+<use 5.jpg>
+Package pdftex.def Info: 5.jpg used on input line 257.
+(pdftex.def)             Requested size: 241.84843pt x 252.41026pt.
+ [7 <./b7.PNG> <./5.jpg>]
+<c13.PNG, id=55, 1440.13031pt x 684.30656pt>
 File: c13.PNG Graphic file (type png)
  <use c13.PNG>
-Package pdftex.def Info: c13.PNG used on input line 279.
+Package pdftex.def Info: c13.PNG used on input line 283.
 (pdftex.def)             Requested size: 483.69687pt x 229.83145pt.
 File: c13.PNG Graphic file (type png)
-
-<use c13.PNG>
-Package pdftex.def Info: c13.PNG used on input line 279.
+ <use c13.PNG>
+Package pdftex.def Info: c13.PNG used on input line 283.
 (pdftex.def)             Requested size: 483.69687pt x 229.83145pt.
- [7 <./c13.PNG>] <c25.PNG, id=54, 1436.36626pt x 682.80093pt>
+
+<6.jpg, id=56, 340.27126pt x 404.51125pt>
+File: 6.jpg Graphic file (type jpg)
+ <use 6.jpg>
+Package pdftex.def Info: 6.jpg used on input line 290.
+(pdftex.def)             Requested size: 241.84843pt x 287.50743pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./c13.PNG>] <c25.PNG, id=61, 1436.36626pt x 682.80093pt>
+File: c25.PNG Graphic file (type png)
+ <use c25.PNG>
+Package pdftex.def Info: c25.PNG used on input line 321.
+(pdftex.def)             Requested size: 483.69687pt x 229.93005pt.
 File: c25.PNG Graphic file (type png)
 
 <use c25.PNG>
-Package pdftex.def Info: c25.PNG used on input line 312.
+Package pdftex.def Info: c25.PNG used on input line 321.
 (pdftex.def)             Requested size: 483.69687pt x 229.93005pt.
-File: c25.PNG Graphic file (type png)
- <use c25.PNG>
-Package pdftex.def Info: c25.PNG used on input line 312.
-(pdftex.def)             Requested size: 483.69687pt x 229.93005pt.
-
+ [9 <./6.jpg>]
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [8 <./c25.PNG>]
-[9] (./d2.aux) ) 
+) [10 <./c25.PNG>]
+[11] (./d2.aux) ) 
 Here is how much of TeX's memory you used:
- 3546 strings out of 494985
- 48725 string characters out of 6180355
- 127376 words of memory out of 5000000
- 6696 multiletter control sequences out of 15000+600000
+ 3569 strings out of 494985
+ 48924 string characters out of 6180355
+ 127388 words of memory out of 5000000
+ 6715 multiletter control sequences out of 15000+600000
  10466 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,11n,23p,486b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti12.pfb>
-Output written on d2.pdf (11 pages, 908633 bytes).
+ 38i,11n,23p,486b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti12.pfb>
+Output written on d2.pdf (13 pages, 1124945 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 106 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

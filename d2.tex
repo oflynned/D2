@@ -61,6 +61,7 @@ The aim for this lab is to show and understand the differences between \emph{n-c
 MOSFETs are used in modern day technology to control electronics, similarly to a BJT. However a BJT controls by current, while a MOSFET is a voltage-controlled device that acts like a variable resistor, where voltage applied changes how the device conducts within the circuit. MOSFETs have a very high impedance, therefore it's extremely easy to drive on low current.
 \subsection{How does a MOSFET work?}
 A MOSFET is a voltage controlled field effect transistor that has its gate electrode highly insulated from the semiconductor in the transistor by a very thin layer of insulating material. The insulated metal gate acts similarly to how a capacitor's plate which causes an extremely high input resistance due to isolation. However, when a voltage is applied to the gate, the width of the \emph{drain-source} channel changes, and the device conducts freely.
+
 \subsection{Abbreviations}
 \begin{itemize}
 \item MOSFET
@@ -77,67 +78,55 @@ A MOSFET is a voltage controlled field effect transistor that has its gate elect
 \end{itemize}
 \item Gate
 \begin{itemize}
-\item 
+\item The gate is the terminal controlled by the voltage supplied to the MOS transistor.
 \end{itemize}
 \item Drain
 \begin{itemize}
-\item 
+\item The drain is where the charge carriers can exit the channel.
 \end{itemize}
 \item Source
 \begin{itemize}
-\item 
+\item The source is where the charge carriers can enter the channel.
 \end{itemize}
 \item $V_{GS}$
 \begin{itemize}
-\item 
+\item This is the voltage that exists between the gate and source terminals.
 \end{itemize}
 \item $V_T$
 \begin{itemize}
-\item 
-\end{itemize}
-\item $V_H$
-\begin{itemize}
-\item 
+\item This is the threshold voltage of the transistor, other scripts such as O or I imply its threshold on the out- or input.
 \end{itemize}
 \item $V_{I}$
 \begin{itemize}
-\item 
+\item This is the input voltage, other subscripts such as L or H determine the logic level implied.
 \end{itemize}
 \item $V_O$
 \begin{itemize}
-\item 
+\item This is the output voltage, other subscripts such as L or H determine the logic level implied.
 \end{itemize}
 \item $V_{DD}$
 \begin{itemize}
-\item Positive power supply voltage
-\end{itemize}
-\item $V_L$
-\begin{itemize}
-\item 
+\item This is the positive power supply voltage that the circuit utilises to drive charge carriers.
 \end{itemize}
 \item $V_{IL MAX}$
 \begin{itemize}
-\item 
+\item Max input voltage in order to recognise a logic LO.
 \end{itemize}
 \item $V_{IH MIN}$
 \begin{itemize}
-\item 
+\item Minimum input voltage in order to recognise a logic HI
 \end{itemize}
 \item $V_{OL}$
 \begin{itemize}
-\item 
+\item Output level to be recognised as a logical LO
 \end{itemize}
 \item $V_{OH}$
 \begin{itemize}
-\item 
-\end{itemize}
-\item $K_{n}$
-\begin{itemize}
-\item 
+\item Output level to be recognised as a logical HI
 \end{itemize}
 \item $R_{d}$
 \begin{itemize}
-\item Resistive load applied to the drain of the MOS transistor
+\item Resistive load applied to the drain of the MOS transistor.
 \end{itemize}
 \item $t_{PHL}$
 \begin{itemize}
@@ -159,6 +148,11 @@ A MOSFET is a voltage controlled field effect transistor that has its gate elect
 \section{MOS Transistor Characteristics}
 Using MultiSim 13.0, the following schematic should be drawn and connected up.
 \subsection{Procedure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{2.jpg}
+\caption{Drain Current v Gate-Source Voltage}
+\end{figure}
 \begin{itemize}
 \item Create a new page and insert a N-MOS transistor with the following values onto the design schematic sheet. Ensure to save them to the user database for easy access.
 \begin{itemize}
@@ -214,6 +208,11 @@ $K_p$, $K_n$  & $2\cdot10^{-5}$ A/V$^{2}$ & $1\cdot10^{-5}$ A/V$^{2}$
 \item Measure the logic values of $V_{IL MAX}$, $V_{IH MIN}$, $V_{OL}$, and $V_{OH}$ to be shown in the table below.
 \end{itemize}
 \subsection{Results}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{4.jpg}
+\caption{Voltage Transfer Characteristics}
+\end{figure}
 Using the formula below, where $V_{GS}=V_{DD}$,
 $$V_O=V_L=\left(V_{DD}-V_T+\frac{1}{2K_nR_D}\right)\pm\sqrt{\left(V_{DD}-V_T+\frac{1}{2K_nR_D}\right)^{2}-\frac{V_{DD}}{K_nR_D}}$$
 We find that 100k$\Omega$ resistor has a $V_O$ of 7.44V or 0.305V, and the 25k$\Omega$ resistor has a $V_O$ of 8.87V or 1.127V.
@@ -253,6 +252,11 @@ $V_{ol}$ & 645mV
 \section{CMOS Inverter}
 \subsection{Static Characteristics}
 \subsubsection{Procedure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{5.jpg}
+\caption{Drain Current v Gate-Source Voltage}
+\end{figure}
 \begin{itemize}
 \item Create a new schematic and set up everything as shown in the diagram provided using the correct components.
 \item Ensure the MOS transistors are facing the correct way, where in the case that they aren't, the can be flipped accordingly through right clicking on the component and selecting an option from the menu.
@@ -281,6 +285,11 @@ $V_{oh min}$ & 4.2V
 
 \subsection{Dynamic Characteristics}
 \subsubsection{Procedure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{6.jpg}
+\caption{Drain Current v Gate-Source Voltage}
+\end{figure}
 \begin{itemize}
 \item Using the schematic created in the previous part, modify the circuitry to include a capacitive dynamic condition in its configuration.
 \item Using pulse voltage instead of a gate source this time, ensure the values from the image below are used.
@@ -311,6 +320,7 @@ $t_{r}$ & 1.1$\mu$s
 \includegraphics[width=1\textwidth]{c25.PNG}
 \end{align*}
 \subsubsection{Discussion}
+\subsection{Discussion}
 \begin{itemize}
 \item What are the limitations on the accuracy of your results?
 \begin{itemize}
@@ -343,7 +353,18 @@ in real life. Although these are great advantages of Multisim, a disadvantage wo
 \bibitem{streetmanb}
   Ben G. Streetman \& Sanjay Kumar Banerjee,
   \emph{Solid State Electronic Devices, 6th edition},
-  Prentice Hall (2006),
-  Pages 154-388.
+  Prentice Hall (2006)
+\bibitem{warnerr}
+  R. M. Warner Jr. \& B. L. Grung,
+  \emph{MOSFET: Theory and Design},
+  Oxford University Press USA (1999)
+\bibitem{manom}
+  M. Mano \& M. Ciletti,
+  \emph{Digital Design},
+  Pearson Education (2012)
+\bibitem{kangs}
+  S. Kang \& Y. Leblebici,
+  \emph{CMOS Digital Integrated Circuits},
+  McGraw Hill (1996)
 \end{thebibliography}
 \end{document}

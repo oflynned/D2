@@ -60,7 +60,22 @@ The aim for this lab is to show and understand the differences between \emph{n-c
 \subsection{What is a MOSFET?}
 MOSFETs are used in modern day technology to control electronics, similarly to a BJT. However a BJT controls by current, while a MOSFET is a voltage-controlled device that acts like a variable resistor, where voltage applied changes how the device conducts within the circuit. MOSFETs have a very high impedance, therefore it's extremely easy to drive on low current.
 \subsection{How does a MOSFET work?}
-A MOSFET is a voltage controlled field effect transistor that has its gate electrode highly insulated from the semiconductor in the transistor by a very thin layer of insulating material. The insulated metal gate acts similarly to how a capacitor's plate which causes an extremely high input resistance due to isolation. However, when a voltage is applied to the gate, the width of the \emph{drain-source} channel changes, and the device conducts freely.
+A MOSFET is a voltage controlled field effect transistor that has its gate electrode highly insulated from the semiconductor in the transistor by a very thin layer of insulating material. The insulated metal gate acts similarly to how a capacitor's plate which causes an extremely high input resistance due to isolation. However, when a voltage is applied to the gate, the width of the \emph{drain-source} channel changes, and the device conducts freely. 
+
+\begin{align*}
+\centering
+\includegraphics[width=0.25\textwidth]{mos.png}
+\end{align*}
+
+The main difference between a BJT and MOSFET is that a BJT is controlled by current, while a MOSFET is controlled by voltage. This implies that for a MOSFET, the output current is not a multiplier of the input due to MOSFETs pertaining to control by voltage.
+
+\begin{align*}
+\centering
+\includegraphics[width=0.5\textwidth]{mos-1.png}
+\includegraphics[width=0.5\textwidth]{mos-2.png}
+\end{align*}
+
+When current is applied between the gate and the source, current is allowed to flow from the drain to source. They are variable resistors controlled by voltage. Depending onthe voltage applied between the gate and source, the resistance between the gate and source will vary. With a low voltage between the gate and source, the resistance will be extremely high between the drain and source. As the voltage increases and a threshold is overcome, the resistance between the drain and source drops.
 
 \subsection{Abbreviations}
 \begin{itemize}
